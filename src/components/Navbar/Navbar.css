@@ -22,7 +22,9 @@ nav {
     align-items: center;
     padding: 0;
 }
-
+.saaim{
+    height: 150px;
+}
 nav button {
     margin: 1px 5px;
     background-color: #918ae3;

@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { auth, db } from '../../firebaseConfig/firebaseConfig'
+import logo from '../Assets/logo.png'
 
 const Navbar = () => {
   function GetCurrentUser() {
@@ -43,6 +44,7 @@ const Navbar = () => {
       <div className="navbar">
 
         <div className="RightContainer">
+          <img src={logo} className='saaim' alt="" />
           {!loggeduser && <nav>
             {/* <Link to="/">
               <button>Home</button>
