@@ -23,9 +23,11 @@ const Biryani = () => {
                 <div key={products.id}>
                     {products.title}
                     <img src={products.image} alt="" />
+                    <button>Favourite/</button>
                 </div>
             ))}
             </div>
+
         </>
     )
 }
