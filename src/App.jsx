@@ -1,9 +1,11 @@
 import './App.css';
-
+// import Signup from './Components/Signup';
+import Home from './Components/Home';
 function App() {
   return (
     <>
-      <h1>My First React App</h1>
+      {/* <Signup /> */}
+      <Home />
     </>
   );
 }
