@@ -15,7 +15,7 @@ export default function App() {
             {/* <Burger /> */}
             {/* <Pizza /> */}
 
-            <Biryani />
+            {/* <Biryani /> */}
         </>
     );
 }
